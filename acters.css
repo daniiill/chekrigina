@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: "Didact Gothic", sans-serif;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 32px;
+  background-color: black;
+}
+
+ul {
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  transition: all .5s linear;
+}
+
+a {
+  padding: 20px 0;
+}
+
+a:hover {
+  color: white;
+  border-bottom: 3px solid orange;
+}
+
+.nav {
+  width: 100%;
+}
+
+.logo {
+  width: 40%;
+}
+
+.logo img {
+  width: 400px;
+  margin-left: 15%;
+}
+
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.container h1 {
+  margin-top: 75px;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+table {
+  border: 1px solid white;
+  border-bottom: none;
+}
+
+table th {
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+table th:last-child {
+  border-right: none;
+}
+
+table td {
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+table td:last-child {
+  border-right: none;
+}
+
+.photo img {
+  max-width: 600px;
+  border-radius: 50px;
+  margin-right: 50px;
+}
